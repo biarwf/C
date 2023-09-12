@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main ()
+{
+		float base, altura, area, p ;
+	printf("\nDigite o valor base:");
+	scanf("%f", &base);
+	printf("\nDigite o valor altura:");
+	scanf("%f", &altura);
+	area = base * altura;
+	p = 2*(base+altura);
+	printf("\n Sua area é: %.2f \n\n ", area);
+	printf("\n Seu perimetro é: %f \n\n ", p);
+}
